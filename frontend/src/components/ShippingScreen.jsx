@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import FormContainer from "../FormContainer";
 //import CheckoutSteps from "../components/CheckoutSteps";
 import { saveShippingAddress } from "../../slices/cartSlice";
-import CheckoutSteps from "../components/CheckoutSteps";
+import CheckoutSteps from "./CheckoutSteps";
 
 const ShippingScreen = () => {
   const cart = useSelector((state) => state.cart);
